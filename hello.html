@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<style>
+img{
+width: 500px;
+height: 500px;
+margin-top: 50px;
+}
+table, th, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-color: white;
+  background-color: grey;
+}
+body{
+  background-color: black;
+}
+</style>
+
+<title>Testing</title>
+
+<body>
+<h1 style="text-align: center; color: grey">Number of Times McQueen Techs Have Been Notified</h1>
+
+<div>
+  
+</div>
+
+<center><table style="width: 75%;">
+<tr>
+  <th>Mod 2</th>
+  <th>Mod 3</th>
+  <th>Mod 4</th>
+  <th>Mod 5</th>
+</tr>
+<tr>
+  <td><div class="counter-box"><button class="minus-btn">-</button>
+    <input type="text" readonly>
+    <button class="plus-btn">+</button>
+    <script>
+      function counter(node, min, max, initial){
+        let count = 0;
+        const input = node.querySelector("input");
+        const minusBtn = node.querySelector(".minus-btn");
+        const plusBtn = node.querySelector(".plus-btn");
+        input.value = initial;
+        minusBtn.addEventListener("click", function(){
+          count = ((count - 1) < min) ? min : (count - 1);
+          input.value = count;
+        });
+        plusBtn.addEventListener("click", function(){
+          count = ((count + 1) > max) ? max : (count + 1);
+          input.value = count;
+        });
+    }
+    counter(document.querySelector(".counter-box"), 1, 10, 1); 
+  </script>
+  </td>
+  <td><div class="counter-box2"><button class="minus-btn2">-</button>
+    <input type="text" readonly>
+    <button class="plus-btn2">+</button>
+    <script>
+      function counter(node, min, max, initial){
+        let count = 0;
+        const input = node.querySelector("input");
+        const minusBtn2 = node.querySelector(".minus-btn2");
+        const plusBtn2 = node.querySelector(".plus-btn2");
+        input.value = initial;
+        minusBtn2.addEventListener("click", function(){
+          count = ((count - 1) < min) ? min : (count - 1);
+          input.value = count;
+        });
+        plusBtn2.addEventListener("click", function(){
+          count = ((count + 1) > max) ? max : (count + 1);
+          input.value = count;
+        });
+    }
+    counter(document.querySelector(".counter-box2"), 1, 10, 1); 
+  </script>
+    </div>
+  </td>
+  <td><div class="counter-box3"><button class="minus-btn3">-</button>
+    <input type="text" readonly>
+    <button class="plus-btn3">+</button>
+    <script>
+      function counter(node, min, max, initial){
+        let count = 0;
+        const input = node.querySelector("input");
+        const minusBtn3 = node.querySelector(".minus-btn3");
+        const plusBtn3 = node.querySelector(".plus-btn3");
+        input.value = initial;
+        minusBtn3.addEventListener("click", function(){
+          count = ((count - 1) < min) ? min : (count - 1);
+          input.value = count;
+        });
+        plusBtn3.addEventListener("click", function(){
+          count = ((count + 1) > max) ? max : (count + 1);
+          input.value = count;
+        });
+    }
+    counter(document.querySelector(".counter-box3"), 1, 10, 1); 
+  </script>
+    </div>
+  </td>
+  <td><div class="counter-box4"><button class="minus-btn4">-</button>
+    <input type="text" readonly>
+    <button class="plus-btn4">+</button>
+    <script>
+      function counter(node, min, max, initial){
+        let count = 0;
+        const input = node.querySelector("input");
+        const minusBtn4 = node.querySelector(".minus-btn4");
+        const plusBtn4 = node.querySelector(".plus-btn4");
+        input.value = initial;
+        minusBtn4.addEventListener("click", function(){
+          count = ((count - 1) < min) ? min : (count - 1);
+          input.value = count;
+        });
+        plusBtn4.addEventListener("click", function(){
+          count = ((count + 1) > max) ? max : (count + 1);
+          input.value = count;
+        });
+    }
+    counter(document.querySelector(".counter-box4"), 1, 10, 1); 
+  </script>
+    </div>
+  </td>
+</div>
+</tr>
+</table></center>
+
+<center><img src ="https://northeastsecuritysolutions.com/wp-content/uploads/2019/01/maintenance-1151312_960_720.png"></center>
+
+
+
+</body>
+
+</html>
